@@ -1,0 +1,18 @@
+﻿<Window x:Class="Morse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Morse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="855.091" Width="1339">
+    <Grid>
+        <TextBox Name="Input" HorizontalAlignment="Left" Height="725" Margin="10,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="647" FontSize="15"/>
+        <Button Name="ToMorse" Content="To Morse" HorizontalAlignment="Left" Height="74" Margin="483,12,0,0" VerticalAlignment="Top" Width="174" FontSize="25" Click="ToMorse_Click"/>
+        <Button Name="ToDutch" Content="To Dutch" HorizontalAlignment="Left" Height="74" Margin="675,12,0,0" VerticalAlignment="Top" Width="174" FontSize="25" Click="ToDutch_Click"/>
+        <TextBox Name="Output" IsReadOnly="True" HorizontalAlignment="Left" Height="725" Margin="675,91,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="647" FontSize="15"/>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="74" Margin="10,12,0,0" TextWrapping="Wrap" Text="Input" VerticalAlignment="Top" Width="269" FontSize="25" Padding="20" BorderBrush="Snow"/>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="74" Margin="1053,10,0,0" TextWrapping="Wrap" Text="Output" VerticalAlignment="Top" Width="269" FontSize="25" TextAlignment="Right" Padding="20" BorderBrush="Snow"/>
+
+    </Grid>
+</Window>
